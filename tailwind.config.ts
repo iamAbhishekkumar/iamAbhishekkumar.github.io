@@ -70,6 +70,12 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontFamily: {
+        sans: [
+          "var(--font-fira-mono)",
+          ...require("tailwindcss/defaultTheme").fontFamily.sans,
+        ], // Replace Inter with Fira Mono
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
