@@ -24,12 +24,13 @@ export default function Bio() {
       </p>
       <p>
         • currently building things from scratch to learn.{" "}
-        <Link
+        {/* <Link
           href="https://github.com/iamAbhishekkumar/gitlite"
           className="text-white hover:underline"
         >
           Check out GitLite
         </Link>
+       */}
       </p>
     </div>
   );
