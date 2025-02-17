@@ -3,7 +3,7 @@ import Bio from "@/app/components/bio";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black text-gray-300 p-8 max-w-4xl mx-auto">
+    <div className="min-h-screen bg-black text-gray-500 p-8 max-w-4xl mx-auto">
       <Header />
       <Bio />
       {/* TODO : 
